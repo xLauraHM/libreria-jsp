@@ -40,7 +40,7 @@
 </head>
 <body>
 
-<h2>Menu</h2>
+<h1>Menu</h1>
 <p><a href="libros/libros.jsp">Libros</a></p>
 <p><a href="socios/socios.jsp">Socios</a></p>
 
