@@ -1,5 +1,5 @@
 
-package com.llvillar.holamundo.model;
+package com.llvillar.libreria.model;
 
 import java.util.Date;
 

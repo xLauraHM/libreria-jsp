@@ -1,6 +1,6 @@
 <<%@ page language='java' contentType="text/html" %>
 
-<%@page import="com.llvillar.holamundo.model.Libro"%>
+<%@page import="com.llvillar.libreria.model.Libro"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 

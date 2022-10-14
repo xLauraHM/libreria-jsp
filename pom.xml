@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.holamundo</groupId>
-  <artifactId>holamundo</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <groupId>com.llv.libreria</groupId>
+  <artifactId>libreria</artifactId>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>holamundo Maven Webapp</name>
@@ -29,7 +29,7 @@
   </dependencies>
 
   <build>
-    <finalName>holamundo</finalName>
+    <finalName>libreria</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

@@ -1,6 +1,6 @@
 <%@ page language='java' contentType="text/html" %>
 
-<%@page import="com.llvillar.holamundo.model.Libro"%>
+<%@page import="com.llvillar.libreria.model.Libro"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 
@@ -19,10 +19,15 @@
   libro1.setAutor("JJ Tolkins");
   libro1.setTitulo("El señor de los anillos");
 
+  Libro libro3 = new Libro();
+  libro3.setIsbn("3");
+  libro3.setAutor("Elvira Lindo");
+  libro3.setTitulo("Manolito Gafotas");
 
   List<Libro> libros = new ArrayList<Libro>();
   libros.add(libro);
   libros.add(libro1);
+  libros.add(libro3);
 
   session.setAttribute("libros", libros);
 
