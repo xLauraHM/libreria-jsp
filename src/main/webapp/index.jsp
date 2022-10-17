@@ -1,6 +1,7 @@
 <%@ page language='java' contentType="text/html" %>
 
 <%@page import="com.llvillar.libreria.model.Libro"%>
+<%@page import="com.llvillar.libreria.model.Socio"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 
@@ -31,7 +32,33 @@
 
   session.setAttribute("libros", libros);
 
-    
+  Socio socio = new Socio();
+  socio.setDni("1111");
+  socio.setNombre("Laura");
+  socio.setApellidos("Haro Molina");
+  socio.setTelefono("111111111");
+  socio.setDireccion("Calle 1");
+
+  Socio socio1 = new Socio();
+  socio1.setDni("2222");
+  socio1.setNombre("Juan");
+  socio1.setApellidos("Perez Ruiz");
+  socio1.setTelefono("222222222");
+  socio1.setDireccion("Calle 2");
+
+  Socio socio2 = new Socio();
+  socio2.setDni("3333");
+  socio2.setNombre("Carla");
+  socio2.setApellidos("Martinez Murillo");
+  socio2.setTelefono("333333333");
+  socio2.setDireccion("Calle 3");
+
+  List<Socio> socios = new ArrayList<Socio>();
+  socios.add(socio);
+  socios.add(socio1);
+  socios.add(socio2);
+
+  session.setAttribute("socios", socios);
 %>
 
 
